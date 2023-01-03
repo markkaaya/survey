@@ -1,0 +1,41 @@
+.nav {
+background: rgb(225, 217, 217);
+height: 70px;
+display: grid;
+grid-template-columns: auto 700px auto;
+grid-template-rows: 70px 100px 600px;
+
+
+}
+body{
+    background-color: rgb(156, 193, 226);
+
+}
+.item{
+    grid-column: 2 / span 2;
+
+}
+.form{
+    border-radius: 30px;
+    background-color: aliceblue !important;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    row-gap: 30px;
+}
+
+*{
+    margin: 0px;
+    text-align:center;
+}
+h4{
+    text-decoration-color: white;
+}
+div{
+    justify-content: center;
+    align-items: center;
+}
+
+ul > li,p{
+    text-decoration: none;
+    padding: 20px;
+}
